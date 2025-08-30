@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>우리 감귤 농장</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: #fffdf7;
+      color: #333;
+    }
+    header {
+      background: #f57c00;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #ff9800;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      padding: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background: #e67e22;
+      border-radius: 5px;
+    }
+    .hero {
+      text-align: center;
+      padding: 2rem;
+      background: #fff3e0;
+    }
+    .hero img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+    section h2 {
+      color: #f57c00;
+      margin-bottom: 1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    footer {
+      background: #f57c00;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍊 우리 감귤 농장</h1>
+    <p>싱싱한 감귤, 직접 따보고 맛보세요!</p>
+  </header>
+
+  <nav>
+    <a href="https://www.notion.so/yourfarm-intro" target="_blank">농장 소개</a>
+    <a href="https://www.notion.so/yourfarm-experience" target="_blank">체험 안내</a>
+    <a href="https://www.notion.so/yourfarm-sale" target="_blank">감귤 판매</a>
+    <a href="https://www.notion.so/yourfarm-process" target="_blank">생산 과정</a>
+  </nav>
+
+  <div class="hero">
+    <img src="https://picsum.photos/1200/400?random=1" alt="농장 대표 이미지">
+    <h2>자연 속에서 즐기는 감귤따기 체험</h2>
+    <p>우리 농장에서 직접 수확한 싱싱한 감귤을 만나보세요 🍊</p>
+  </div>
+
+  <section>
+    <h2>체험 프로그램</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://picsum.photos/400/300?random=2" alt="체험 이미지">
+        <h3>감귤따기</h3>
+        <p>가족과 함께 직접 감귤을 따며 즐거운 추억을 만들어보세요.</p>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/400/300?random=3" alt="체험 이미지">
+        <h3>농장 투어</h3>
+        <p>감귤이 자라는 과정을 직접 보고 배우실 수 있습니다.</p>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/400/300?random=4" alt="체험 이미지">
+        <h3>시식 & 판매</h3>
+        <p>갓 수확한 감귤을 시식하고 합리적인 가격에 구입하세요.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>📍 제주도 ○○시 ○○읍 | ☎ 010-1234-5678</p>
+    <p>&copy; 2025 우리 감귤 농장. All rights reserved.</p>
+  </footer>
+</body>
+</html>
